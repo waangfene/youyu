@@ -1,0 +1,245 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+    font-family: 'Microsoft YaHei','simsun','Lucida Grande','Lucida Sans Unicode';
+    background: #fff;
+    font-size: 12px;
+    display: block;
+}
+.m-product-show .pl p {
+    color: #898888;
+    line-height: 26px;
+    height: 145px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.pl .box a:hover{
+	text-decoration:underline;
+	color: #FF6600;
+}
+a, a:visited {
+    text-decoration: none;
+    color: #8c8c8c;
+}
+.m-product-show .pl h2 {
+    height: 39px;
+    line-height: 39px;
+    padding-left: 32px;
+    overflow: hidden;
+    background: url(http://p5.yokacdn.com/pic/div/2015/products/brand1/img/brand_newbg.png) no-repeat 0 10px;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 12px;
+}
+.contents {
+    width: 1160px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.m-product-show .pl {
+    float: right;
+    width: 380px;
+    padding: 10px;
+    background: url(../img/brnad_xx.png);
+}
+.m-product-show .pl .box {
+    width: 350px;
+    height: 230px;
+    padding: 10px 15px 0;
+    overflow: hidden;
+    background: #fff;
+}
+.pr{
+	width: 60%;
+	float: left;
+}
+a, a:visited {
+    text-decoration: none;
+    color: #8c8c8c;
+}
+h2{
+    font-weight: normal;
+    font-size: 12px;
+}
+.b-tit-new {
+    height: 76px;
+    overflow: hidden;
+    background:url(../img/brnad_dian.png) repeat-x;
+    text-align: center;
+    width: 1160px;
+}
+.b-tit-new span{
+	display: inline-block;
+	width: 500px;
+}
+img {
+    border: 0;
+}
+.select_tabd8 {
+    height: 40px;
+    clear: both;
+    padding-bottom: 20px;
+}
+.select_tabd8 a.on {
+    background: #f8f8f8;
+    color: #222;
+}
+.select_tabd8 a:hover{
+	text-decoration:underline;
+	color:#FF6600;
+}
+.select_tabd8 a.a_first {
+    border-left: 1px solid #e5e5e5;
+}
+.select_tabd8 a {
+    display: block;
+    float: left;
+    padding: 0 40px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+    border: 1px solid #e5e5e5;
+    border-left: none;
+}
+/*a:link, a:visited {
+    color: #555;
+    text-decoration: none;
+    
+}*/
+.b-brnad-hot{
+    display: block;
+}
+.b-brnad-hot .mask {
+    width: 1180px;
+}
+.b-brnad-hot dl {
+    width: 245px;
+    height: 300px;
+    overflow: hidden;
+    padding: 14px 14px 8px;
+    border: 1px solid #ececec;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+dl {
+    display: block;
+  
+}
+.b-brnad-hot dt {
+    width: 245px;
+    height: 245px;
+    overflow: hidden;
+    text-align: center;
+}
+dt {
+    display: block;
+}
+.b-brnad-hot dt img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.b-brnad-hot dd {
+    width: 245px;
+    overflow: hidden;
+    padding-top: 10px;
+    font-size: 14px;
+}
+dd {
+	/*以块状元素显示*/
+    display: block;
+    
+}
+.b-brnad-hot dd p {
+    color: #000000;
+    
+}
+.brand-footer {
+    margin-top: 20px;
+    overflow: hidden;
+}
+.brand-footer .yo_footer {
+    width: 100%;
+    min-width: 1160px;
+    background: #f2f2f2;
+    border-top: 1px solid #dfdfdf;
+}
+.yo_footer {
+    width: 980px;
+    background: #1e1e1e;
+    margin: 0 auto;
+    color: #5d5d5d;
+}
+.brand-footer .footer_links {
+    border-bottom: 1px solid #ddd;
+    height: 64px;
+    line-height: 64px;
+    padding: 0;
+}
+.footer_links {
+    padding: 14px 0 0;
+    border-bottom: 1px solid #3f3f3f;
+    height: 35px;
+    overflow: hidden;
+    font-size: 16px;
+    text-align: Center;
+}
+.brand-footer .footer_links a, .brand-footer .footer_links a:visited {
+    color: #323232;
+    margin: 0 59px;
+}
+.yo_footer a:link, .yo_footer a:visited {
+    color: #909090;
+}
+.footer_links a {
+	/*将元素显示为行内块状元素*/
+    display: inline-block;
+    margin: 0 16px 0 0;
+}
+a:link, a:visited {
+    color: #555;
+    text-decoration: none;
+   
+}
+
+.brand-footer .footer_links a, .brand-footer .footer_links a:visited {
+    color: #323232;
+    margin: 0 59px;
+}
+.footer_links a {
+    display: inline-block;
+    margin: 0 16px 0 0;
+}
+
+.brand-footer .footer_links {
+    border-bottom: 1px solid #ddd;
+    height: 64px;
+    line-height: 64px;
+    padding: 0;
+}
+.footer_links {
+    padding: 14px 0 0;
+    border-bottom: 1px solid #3f3f3f;
+    height: 35px;
+    overflow: hidden;
+    font-size: 16px;
+    text-align: Center;
+}
+.brand-footer .footer_copy {
+    line-height: 60px;
+    text-align: center;
+    border-top: 1px solid #dfdfdf;
+    text-shadow: 1px 1px 0px #fff;
+    padding: 0;
+    color: #ccc;
+    font-size: 14px;
+}
+.footer_copy {
+    padding: 0 0 0 60px;
+    height: 60px;
+    color: #626262;
+}
+
+
+
+
